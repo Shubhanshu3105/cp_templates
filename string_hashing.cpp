@@ -79,3 +79,13 @@ struct Hashing
         return hash;
     }
 };
+bool check(vector<ll> &f, vector<ll> &s)
+{
+    for (int i = 0; i < f.size(); i++)
+    {
+        if (f[i] != s[i])
+            return false;
+    }
+    return true;
+}
+
