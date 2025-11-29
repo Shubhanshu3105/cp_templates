@@ -27,7 +27,7 @@ struct Hashing
     string s;
     int n;
     int primes;
-    vector<ll> hashPrimes = {1000000009, 1000000007,1000000013};
+    vector<ll> hashPrimes = {1000000009, 1000000007,1000000033};
     const ll base = 31;
     vector<vector<ll>> hashValues;
     vector<vector<ll>> powersOfBase;
